@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { navLinks } from '../constants';
 import { menu, close } from '../assets';
+import { Link } from 'react-router-dom';
 
 const Navbar = () => {
     const [toggle, setToggle] = useState(false);
@@ -17,9 +18,9 @@ const Navbar = () => {
                         className={`font-poppins font-normal cursor-pointer text-[16px] ${index === navLinks.lenght - 1 ? 'mr-0' : 'mr-10'} text-white`}
 
                     >
-                        <a href={`#${nav.id}`}>
+                        <Link to={`#${nav.id}`}>
                             {nav.title}
-                        </a>
+                        </Link>
                     </li>
                 ))}
             </ul>
@@ -36,9 +37,9 @@ const Navbar = () => {
                             className={`font-poppins font-normal cursor-pointer text-[16px] ${index === navLinks.lenght - 1 ? 'mr-0' : 'mb-4'} text-white`}
 
                         >
-                            <a href={`#${nav.id}`}>
+                            <Link to={`#${nav.id}`}>
                                 {nav.title}
-                            </a>
+                            </Link>
                         </li>
                     ))}
                 </ul>

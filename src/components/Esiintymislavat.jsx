@@ -1,7 +1,5 @@
 import React from 'react'
-import styles from '../style'
 import homepic from '../assets/widehometwo.png'
-import logo from '../assets/logo.png'
 
 const Esiintymislavat = () => {
     return (

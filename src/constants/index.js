@@ -6,7 +6,7 @@ export const navLinks = [
         title: "Koti",
     },
     {
-        id: "lavavuokra",
+        id: "lavavuokraus",
         title: "Lavat",
     },
     {

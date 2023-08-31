@@ -3,7 +3,7 @@ import alspaw from '../assets/alspaw2.png'
 import ultralitepro from '../assets/ultralitepro.png'
 import europod from '../assets/europodium.png'
 
-const lavavuokra = () => {
+const Lavavuokraus = () => {
     return (
         <section id='lavavuokra' className='border-b border-gray-700'>
             <div className="flex flex-col min-h-screen bg-black">
@@ -62,4 +62,4 @@ const lavavuokra = () => {
     )
 }
 
-export default lavavuokra
+export default Lavavuokraus
