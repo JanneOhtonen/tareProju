@@ -1,3 +1,2 @@
 # tareProju
 
-og= esiintymislava.net
